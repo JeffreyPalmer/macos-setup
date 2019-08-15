@@ -17,8 +17,9 @@ brew "git"
 brew "git-extras"
 brew "leiningen"
 brew "elixir"
+brew "hugo"
 brew "zsh"
-brew "emacs-mac", args: ["with-modern-icon"]
+brew "emacs-mac", args: ["with-modern-icon" "with-natural-title-bar"]
 brew "keychain"
 brew "ag"
 brew "postgresql"
