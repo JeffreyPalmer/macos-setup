@@ -2,6 +2,7 @@
 #
 # install this stuff by running `brew bundle` after homebrew is installed
 #
+tap "homebrew/cask-fonts"
 cask "aerial"
 cask "docker"
 cask "flux"
@@ -14,8 +15,9 @@ cask "ngrok"
 cask "spotify"
 tap "railwaycat/emacsmacport"
 brew "ag"
+brew "dbmate"
 brew "elixir"
-brew "emacs-mac", args: ["with-modern-icon" "with-natural-title-bar"]
+brew "emacs-mac", args: ["with-modern-icon", "with-natural-title-bar"]
 brew "git"
 brew "git-extras"
 brew "httpie"
@@ -23,6 +25,9 @@ brew "hugo"
 brew "keychain"
 brew "leiningen"
 brew "postgresql"
+brew "pyenv"
+brew "nodenv"
+brew "rbenv"
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
